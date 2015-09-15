@@ -1,28 +1,15 @@
-== README
+== Rails Template
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Plantilla de rails para iniciar proyectos con varias herramientas ya instaladas y configuradas.
 
-Things you may want to cover:
+= Principales herramientas instaladas
 
-* Ruby version
+* Capistrano
 
-* System dependencies
+* Foundation
 
-* Configuration
+* Unicorn
 
-* Database creation
+* Better Errors
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* Devise
