@@ -1,0 +1,12 @@
+<%# navigation styled for Zurb Foundation 5 %>
+<nav class="top-bar" data-topbar>
+  <ul class="title-area">
+    <li class="name"><%= link_to ('<i class="fa fa-home fa-fw"></i>' + I18n.t('home.home')).html_safe, root_path %></li>
+    <li class="toggle-topbar menu-icon"><a href="#"><i class="fa fa-bars fa-lg"></i></a></li>
+  </ul>
+  <div class="top-bar-section">
+    <ul>
+      <%= render 'layouts/navigation_links' %>
+    </ul>
+  </div>
+</nav>

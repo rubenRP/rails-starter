@@ -1,0 +1,44 @@
+<% content_for :title do %>About<% end %>
+<div class="row">
+  <div class="columns small-12">
+    <h2>About the Website</h2>
+  </div>
+</div>
+<div class="row">
+  <div class="columns small-12 medium-4">
+    <%= image_tag('medium-large.jpg', alt: 'Description', 'data-interchange' => "[#{image_path('small.jpg')}, (small)],[#{image_path('medium-large.jpg')}, (medium)], [#{image_path('medium-large.jpg')}, (large)]")%>
+  </div>
+  <div class="columns small-12 medium-8">
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur maximus sem convallis pellentesque egestas. Nulla rhoncus lectus sit amet erat lacinia, sed tincidunt mi sodales.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur maximus sem convallis pellentesque egestas. Nulla rhoncus lectus sit amet erat lacinia, sed tincidunt mi sodales.
+    </p>
+  </div>
+  <div class="row">
+    <div class="columns">
+      <h2>Gallery</h2>
+    </div>
+  </div>
+  <div class="row">
+    <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
+      <li><%= image_tag('gallery/Gallery1.jpg', alt:'1')%></li>
+      <li><%= image_tag('gallery/Gallery2.jpg', alt:'2')%></li>
+      <li><%= image_tag('gallery/Gallery3.jpg', alt:'3')%></li>
+      <li><%= image_tag('gallery/Gallery4.jpg', alt:'4')%></li>
+      <li><%= image_tag('gallery/Gallery5.jpg', alt:'5')%></li>
+      <li><%= image_tag('gallery/Gallery6.jpg', alt:'6')%></li>
+      <li><%= image_tag('gallery/Gallery7.jpg', alt:'7')%></li>
+    </ul>
+  </div>
+  <div class="button round">Button</div>
+  <button href="#" data-dropdown="drop1" aria-controls="drop1" aria-expanded="false" class="button dropdown">Dropdown Button</button><br>
+  <ul id="drop1" data-dropdown-content class="f-dropdown" aria-hidden="true" tabindex="-1">
+    <li><a href="#">This is a link</a></li>
+    <li><a href="#">This is another</a></li>
+    <li><a href="#">Yet another</a></li>
+  </ul>
+</div>
+
+
